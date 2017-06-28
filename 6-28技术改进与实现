@@ -1,0 +1,3 @@
+https://wenku.baidu.com/view/534431e1856a561252d36f6e.html?from=search
+参考了一个websocket的 java EE与前端交流的应用，本项目使用java做后台用 websocket 与js进行交互；
+java后台监听socket 或者 串口信息，收集来自开发板的信息即可
