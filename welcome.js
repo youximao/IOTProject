@@ -205,7 +205,7 @@ app.controller('things',function($scope,$http,$interval){
         alert("ssss")
         //location.href ="game.html"
 
-        location.href="/wode/php/test.php"
+        location.href="/wode/game.html"
     }
 
     $scope.musicBig=function(){
