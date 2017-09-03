@@ -1,0 +1,37 @@
+.but{
+    /*background-color: #8a6d3b;*/
+    height: 150px;
+    width: 150px;
+    border: 10px solid #641d68;
+}
+.butbig{
+    background-color: #8a6d3b;
+    height: 300px;
+    width: 300px;
+}
+.music{
+    background:url("../images/music.jpg");
+    background-size:100% 100%
+}
+.game{
+    background: url("../images/game.png");
+    background-size:100% 100%
+}
+.setting{
+    background: url("../images/setting.png");
+    background-size:100% 100%
+}
+.light{
+    background: url("../images/light.jpg");
+    background-size:100% 100%
+}
+.autolight{
+    background: url("../images/deng1.jpg");
+    background-size:100% 100%
+}
+.wodecss{
+    padding: 10px 16px;
+    font-size: 60px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}

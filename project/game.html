@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>别踩白块</title>
+<meta charset='utf-8' />
+<link type="text/css" rel="stylesheet" href="css/game.css">
+</head>
+<body>
+<body background="images/caige1.jpg"></body>
+
+    	<h1 id="score"><b><font size="+3">0</font></b></h1>
+        <p id='bestscore'><b><font size="+3">bestscore: </font></b><a>
+        <script>
+        if(localStorage.bestscore==null)
+            document.write('0');
+          else
+            document.write(localStorage.bestscore);
+        </script>
+        </a></p>
+        <h2 id="resert"><button onclick="window.history.go(0);"><b><font size="+3">重新开始 </font></b></button></h2>
+    	<div id="main">
+    		<div id="container"></div>
+    	</div>
+</body>
+    <script src="js/game_control.js"></script>
+</html>

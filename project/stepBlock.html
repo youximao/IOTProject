@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <title>
+            别踩白块idea2
+        </title>
+        <style>
+            body{
+                margin: 0;
+                overflow: hidden;
+            }
+            #all{
+                margin: 0 auto;
+                text-align: center;
+                border: 1px solid seagreen;
+            }
+            #container{
+                margin: 0 auto;
+                overflow: hidden;
+            }
+            #container div{
+                margin: -1;
+                float:left;
+                border-radius: 25px;
+                border: 1px solid black;
+            }
+            #time{
+                position:absolute;
+                font-size: 2em;
+                color: lightseagreen;
+            }
+            #score{
+                position:absolute;
+                font-size: 2em;
+                color: dodgerblue;
+            }
+            #msgbox{
+                position: absolute;
+                border-radius: 50px;
+                background: linear-gradient(to top, rgba(255,0,0,0), rgba(255,248,200,1));
+                font-size: 2em;
+                color:black;
+                display:none;
+            }
+        </style>
+    </head>
+    <body onload="document.body.scrollTop = document.body.scrollHeight">
+        <div><input type="text-align:center" id="testChangeId">g1</div>
+         <div id="all">
+            <div id="time">time: 0.0</div>
+            <div id="score">score: 0.0</div>
+            <div id="msgbox"><span></span></div>
+            <div id="container">
+                <div></div> <div></div> <div></div> <div></div> 
+                <div></div> <div></div> <div></div> <div></div> 
+                <div></div> <div></div> <div></div> <div></div> 
+                <div></div> <div></div> <div></div> <div></div> 
+            </div>
+         </div>
+    </body>
+    <script src="lib/jquery.js"></script>
+    <script src="js/stepBlock.js"></script>
+</html>

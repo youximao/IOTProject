@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" ng-init="initAn()">
+<head >
+    <meta charset="UTF-8">
+    <title>物联网开发</title>
+
+    <script src="angular.js" type="text/javascript"></script>
+
+    <!--<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>-->
+    <script src="lib/bootstrap/js/bootstrap.min.js" ></script>
+    <!--<script src="lib/bootstrap/js/bootstrap.js" ></script>-->
+    <script src="jquery.js" ></script>
+
+    <link href="css/weclome.css" rel="stylesheet">
+
+   <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+
+    <script src="welcome.js" type="text/javascript"></script>
+    <!--<script src="js/handlesearch.js" type="text/javascript"></script>-->
+
+<script type="text/javascript">
+
+
+
+	</script>
+	
+
+</head>
+<body ng-controller="things" style=" text-align:center">
+<a href="/cgi-bin/cgi.cgi?daf">wowowowo--------</a>
+<input class="center-block" id="testChangeId"> </input>
+<div class="center-block" style="height: 50px;width: 40px;background-color: #8a6d3b">菜单选项{{tjia}}</div>-->
+<a href="./php/test.php">dianji</a>
+<div class="center-block" >{{first}}</div>
+<div class="" style="margin-left: 500px">
+    <table >
+        <tr>
+        </tr>
+        <tr >
+            <td >
+        <button class="but light" id="lightId" ng-click="lightFlag=true" ng-mouseover="lightBig()" ng-mouseleave="lightSmall()" >灯光</button>
+            </td>
+            <td>
+        <div >
+            <button class="but music"id="musicId" ng-click="musicFlag=true"
+                    ng-mouseover="musicBig()" ng-mouseleave="musicSmall()">音乐 {{music}} </button>
+        </div>
+            </td>
+            <td>
+        <div ng-click="game()">
+            <button class="but game" id="gameId" ng-mouseover="gameBig()" ng-mouseleave="gameSmall()">游戏</button>
+        </div>
+            </td>
+
+            <td>
+        <div >
+            <button class="but setting" id="settingId" ng-mouseover="settingBig()" ng-mouseleave="settingSmall()">设置</button>
+        </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<!-- 灯光控制-->
+<div ng-show="lightFlag">
+    <div>
+        <p>控制灯光条</p>
+        <div class="progress">
+            <div id="lightProcessId"
+                 class="progress-bar"
+                 role="progressbar"
+                 aria-valuenow="100"
+                 aria-valuemin="0"
+                 aria-valuemax="100"
+                 style="width: 100%;">
+                <span class="sr-only">40% 完成</span>
+            </div>
+        </div>
+        <button id="changeLightId" onclick="change()">改变</button>
+    </div>
+</div>
+
+<!--声音控制-->
+<div ng-show="musicFlag">
+    <div>
+        <!--功能未实现-->
+        <button class="musicbut">start</button>
+        <button clsee="musicbut">stop</button>
+    </div>
+</div>
+
+	
+</body>
+</html>
